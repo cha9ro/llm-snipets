@@ -1,0 +1,92 @@
+[
+  {
+    "id": "31d09d78-23db-4abd-8d96-90aafbde1942",
+    "name": "Akari",
+    "age": 11,
+    "favorites": ["Tofu", "Sushi"]
+  },
+  {
+    "id": "b38467ef-515c-4033-aaef-0c080eeb66b2",
+    "name": "Mio",
+    "age": 3,
+    "favorites": ["Okonomiyaki"]
+  },
+  {
+    "id": "48d41de8-22f6-4d8b-a1f9-2fa43a83670e",
+    "name": "Yuna",
+    "age": 102,
+    "favorites": ["Green Tea"]
+  },
+  {
+    "id": "c4adc6d8-cddd-493c-b8c2-93ef5d5ede49",
+    "name": "Hina",
+    "age": 117,
+    "favorites": ["Ramen", "Curry Rice"]
+  },
+  {
+    "id": "452cd6ab-0063-4d3d-99cd-345c8331e1f4",
+    "name": "Sora",
+    "age": 29,
+    "favorites": ["Green Tea", "Okonomiyaki", "Udon", "Tempura", "Miso Soup"]
+  },
+  {
+    "id": "81cedbe8-b53b-4944-8f52-e6d88bdbb5bb",
+    "name": "Riku",
+    "age": 15,
+    "favorites": ["Miso Soup", "Tofu", "Katsu", "Tempura"]
+  },
+  {
+    "id": "88de4ace-669f-4a39-a390-bdcaf66db2bc",
+    "name": "Ren",
+    "age": 18,
+    "favorites": ["Curry Rice", "Daifuku", "Miso Soup", "Gyoza"]
+  },
+  {
+    "id": "f81262ea-e4cd-4419-bf3e-8b49902660f6",
+    "name": "Sakura",
+    "age": 3,
+    "favorites": ["Udon", "Ramen", "Tempura", "Gyoza", "Green Tea"]
+  },
+  {
+    "id": "61caea2d-db28-43b8-a84a-bf0ac3906713",
+    "name": "Hiroto",
+    "age": 4,
+    "favorites": ["Daifuku", "Curry Rice", "Green Tea"]
+  },
+  {
+    "id": "d20e3259-118a-4a65-9774-397b050fe081",
+    "name": "Ren",
+    "age": 40,
+    "favorites": ["Yakitori", "Tofu"]
+  },
+  {
+    "id": "125f58b1-9993-43ec-8fc6-40e2b58698fb",
+    "name": "Kanna",
+    "age": 63,
+    "favorites": ["Takoyaki", "Katsu", "Ramen"]
+  },
+  {
+    "id": "66bda7f5-6ea3-4a1a-bf7d-7c83b665add2",
+    "name": "Riku",
+    "age": 20,
+    "favorites": ["Sushi", "Green Tea", "Gyoza"]
+  },
+  {
+    "id": "9b2d0cbb-3c0a-43a2-95ac-9b67-c4ac86093289",
+    "name": "Ren",
+    "age": 110,
+    "favorites": ["Sushi"]
+  },
+  {
+    "id": "53402be6-5c91-476c-980f-cb140b9e0bc5",
+    "name": "Mei",
+    "age": 18,
+    "favorites": ["Tofu", "Miso Soup", "Daifuku"]
+  },
+  {
+    "id": "8357ce1f-a30d-4066-ae0f-25144e7dfd60",
+    "name": "Yui",
+    "age": 78,
+    "favorites": ["Daifuku", "Katsu", "Sushi"]
+  }
+]

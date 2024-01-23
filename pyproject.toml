@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "llm-snipets"
+version = "0.1.0"
+description = "LLM sandbox"
+authors = ["Takuro Takezawa"]
+readme = "README.md"
+packages = [{include = "llm_snipets"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.350"
+llama-index = "^0.9.15.post2"
+python-dotenv = "^1.0.0"
+numexpr = "^2.8.8"
+transformers = "^4.36.1"
+pydantic = "^2.5.2"
+chromadb = "^0.4.21"
+torch = "^2.1.2"
+pypdf = "^3.17.4"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
