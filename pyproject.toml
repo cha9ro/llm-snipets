@@ -3,8 +3,8 @@ name = "llm-snipets"
 version = "0.1.0"
 description = "LLM sandbox"
 authors = ["Takuro Takezawa"]
+license = "MIT"
 readme = "README.md"
-packages = [{include = "llm_snipets"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -17,6 +17,10 @@ pydantic = "^2.5.2"
 chromadb = "^0.4.21"
 torch = "^2.1.2"
 pypdf = "^3.17.4"
+streamlit = "^1.30.0"
+requests = "^2.31.0"
+langchain-openai = "^0.0.5"
+html2text = "^2020.1.16"
 
 
 [tool.poetry.group.dev.dependencies]
