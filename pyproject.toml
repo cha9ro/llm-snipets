@@ -8,7 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-langchain = "^0.0.350"
+langchain = "^0.1.0"
 llama-index = "^0.9.15.post2"
 python-dotenv = "^1.0.0"
 numexpr = "^2.8.8"
@@ -21,6 +21,11 @@ streamlit = "^1.30.0"
 requests = "^2.31.0"
 langchain-openai = "^0.0.5"
 html2text = "^2020.1.16"
+langchainhub = "^0.1.14"
+langchain-core = "^0.1.29"
+docarray = "^0.40.0"
+tiktoken = "^0.5.2"
+faiss-cpu = "^1.8.0"
 
 
 [tool.poetry.group.dev.dependencies]
