@@ -17,6 +17,7 @@ pydantic = "^2.5.2"
 chromadb = "^0.4.21"
 torch = "^2.1.2"
 pypdf = "^3.17.4"
+neo4j = "^5.20.0"
 
 
 [tool.poetry.group.dev.dependencies]
