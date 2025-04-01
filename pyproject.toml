@@ -28,6 +28,7 @@ langfuse = "^2.51.3"
 mlflow = "^2.16.2"
 langsmith = "^0.1.132"
 openai-agents = "^0.0.4"
+fastapi = {extras = ["standard"], version = "^0.115.12"}
 
 
 [tool.poetry.group.dev.dependencies]
