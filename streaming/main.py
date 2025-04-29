@@ -1,5 +1,5 @@
 import json
-from typing import Any, AsyncGenerator
+from typing import AsyncGenerator
 
 from fastapi import FastAPI
 from fastapi.responses import StreamingResponse
@@ -33,8 +33,4 @@ app = FastAPI()
 
 @app.get("/stream")
 async def stream() -> StreamingResponse:
-    async def event_generator() -> AsyncGenerator[str, Any]:
-        async for item in main():
-            yield f"{item}\n"
-
-    return StreamingResponse(event_generator(), media_type="text/event-stream")
+    return StreamingResponse(main(), media_type="text/event-stream")
