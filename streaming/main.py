@@ -16,16 +16,23 @@ async def acreate() -> AsyncGenerator[str, None]:
             {"role": "user", "content": "Hello! How are you?"},
         ],
         stream=True,
+        temperature=0.9,
     )
+    completion = ""
     async for chunk in response:
-        yield json.dumps({"state": "generationg", "content": chunk.choices[0].delta.content})
+        completion += chunk.choices[0].delta.content or ""
+        if chunk.choices[0].finish_reason != "stop":
+            yield f"{json.dumps({"state": "generationg", "content": chunk.choices[0].delta.content})}\n"
+        else:
+            yield f"{json.dumps({"state": "completed", "content": completion})}\n"
+            break
 
 
 async def main() -> AsyncGenerator[str, None]:
-    yield json.dumps({"state": "accepted", "content": "hello world"})
+    yield f"{json.dumps({"state": "accepted", "content": "hello world"})}\n"
     async for chunk in acreate():
         yield chunk
-    yield json.dumps({"state": "completed", "content": "goodbye world"})
+    yield f"{json.dumps({"state": "ending", "content": "goodbye world"})}\n"
 
 
 app = FastAPI()
