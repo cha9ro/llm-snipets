@@ -30,6 +30,8 @@ langsmith = "^0.1.132"
 openai-agents = "^0.0.4"
 fastapi = {extras = ["standard"], version = "^0.115.12"}
 litellm = "^1.65.1"
+mcp = {extras = ["cli"], version = "^1.8.0"}
+httpx = "^0.28.1"
 
 
 [tool.poetry.group.dev.dependencies]
