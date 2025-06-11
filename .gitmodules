@@ -1,3 +1,3 @@
-[submodule "a2a-python"]
-	path = a2a-python
-	url = https://github.com/google/A2A.git
+[submodule "a2a-samples"]
+	path = a2a-samples
+	url = https://github.com/cha9ro/a2a-samples.git
